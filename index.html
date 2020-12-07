@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta content="width=device-width" />
+	<title>Flex Box</title>
+	<style type="text/css">
+		@media (max-width: 768px) {
+	 		#boxcontainer {
+	 			flex-direction: column;
+	 		}
+	 	}
+
+	 	 @media (max-width: 768px) {
+	 		.orangebox1 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+
+	 	@media (max-width: 768px) {
+	 		.orangebox2 {
+	 			width: 73vw;
+	 			margin-bottom: 50px;
+	 		}
+	 	}
+		#nav {
+			display: flex;
+			height: 75px;
+			background: royalblue;
+			}
+			.ul {
+  			display: flex;
+  			list-style-type: none;
+  			font-size: 19px;
+  			margin: 0px; 
+		}
+
+		 li {
+  			margin: 20px;
+		 }
+
+		 .navn {
+		 	margin-right: 840px;
+		 	font-size: 25px;
+		 }
+
+		 .home {
+		 	padding: 3px;
+		 }
+
+		 li a {
+		 	color: black;
+		 	text-decoration: none;
+		 } 
+		#header {
+			display: flex;
+			height: 400px;
+			background: url(https://cdn.scenicglobal.com/webfile/Hero-Images-Scenic-1920x800px-18.jpg) no-repeat center center;
+			background-size: cover;
+  			 flex-direction: column;
+  			 align-items: center;
+			}
+
+		 .f2 {
+		 	font-size: 200px;
+		 	font-weight: 150;
+		 	margin-top: 4px;
+		 	margin-bottom: 4px;
+		 	color: #eb4034;
+		 	border: 10px solid white;
+		 	border-radius: 20px;
+		 }
+		#section {
+			display: flex;
+			background: gray;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 75px;
+			margin-bottom: 75px;
+			flex-direction: column;
+			}
+		.YellowParagraph {
+			display: flex;
+			width: 100%;
+			height: 200px;
+			background: khaki;
+			margin-bottom: 75px;
+			align-self: center;
+			font-size: 40px;
+			text-align: center;
+			}
+		.fy {
+		 	font-size: 40px;
+		 	margin-left: 150px;
+		 	margin-right: 150px;
+		 	align-self: center;
+		 }
+		#Boxes {
+			display: flex;
+			flex-direction: row;
+			align-content: flex-end;
+			}
+		.OrangeBox1 {
+			display: flex;
+			height: 400px;
+			width: 48%;
+			background: tomato;
+			margin-right: 2%;
+			flex: 1 2 12em;
+			text-align: center;
+			flex-direction: column;
+			}
+		.or1f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+		.OrangeBox2 {
+			display: flex;
+			height: 400px;
+			width: 48%;
+			background: tomato;
+			margin-left: 2%;
+			flex: 1 2 12em;
+			text-align: center;
+			flex-direction: column;
+			}
+		.or2f {
+		 	font-size: 17px;
+		 	margin-right: 75px;
+		 	margin-left: 75px; 
+		 }
+		#PreFooter {
+			display: flex;
+			height: 40px;
+			background: silver;
+			align-items: center;
+			justify-content: center;
+			}
+		.pf {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 }
+		#Footer {
+			display: flex;
+			height: 100px;
+			background: black;
+			align-items: center;
+			justify-content: center;
+			}
+		.ftr {
+		 	font-style: italic;
+		 	padding-bottom: 5px;
+		 	color: white;
+		 }
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<ul class="ul">
+	 		<li class="navn"><a href="#">Wikipedia</a></li>
+	 		<li><a href="#" class="home">Home</a></li>
+	 		<li><a href="#">Upcoming events</a></li>
+	 		<li><a href="#">Avia tickets</a></li>
+	 		<li><a href="#">Famous places</a></li>
+	 	</ul>
+	</div>
+		<div id="header">
+	 		<p class="f2">Japan</p>
+		</div>
+			<div id="section">
+				<div class="YellowParagraph">
+					<p class="fy">Japan is an island country in East Asia located in the northwest Pacific Ocean.</p>
+				</div>
+				<div id="Boxes">
+					<div class="OrangeBox1">
+						<h5>Georaphy</h5>
+						<p class="or1f">Japan comprises 6852 islands extending along the Pacific coast of Asia. It stretches over 3,000 km (1,900 mi) northeast–southwest from the Sea of Okhotsk to the East China Sea. The county's five main islands, from north to south, are Hokkaido, Honshu, Shikoku, Kyushu and Okinawa. The Ryukyu Islands, which include Okinawa, are a chain to the south of Kyushu. The Nanpō Islands are south and east of the main islands of Japan. Together they are often known as the Japanese archipelago. As of 2019, Japan's territory is 377,975.24 km2 (145,937.06 sq mi). Japan has the sixth longest coastline in the world (29,751 km (18,486 mi)). Because of its many far-flung outlying islands, Japan has the eighth largest Exclusive Economic Zone in the world covering 4,470,000 km2 (1,730,000 sq mi).</p>
+					</div>
+					<div class="OrangeBox2">
+						<h5>Climate</h5>
+						<p class="or2f">The climate of Japan is predominantly temperate but varies greatly from north to south. The northernmost region, Hokkaido, has a humid continental climate with long, cold winters and very warm to cool summers. Precipitation is not heavy, but the islands usually develop deep snowbanks in the winter. In the Sea of Japan region on Honshu's west coast, northwest winter winds bring heavy snowfall during winter. In the summer, the region sometimes experiences extremely hot temperatures because of the foehn. The Central Highland has a typical inland humid continental climate, with large temperature differences between summer and winter. The mountains of the Chūgoku and Shikoku regions shelter the Seto Inland Sea from seasonal winds, bringing mild weather year-round. The Pacific coast features a humid subtropical climate that experiences milder winters with occasional snowfall and hot, humid summers because of the southeast seasonal wind.</p>
+					</div>
+				</div>
+			</div>
+				<div id="PreFooter">
+					<h3 class="pf">Thanks for visiting</h3>
+				</div>
+					<div id="Footer">
+						<p class="ftr">This is my page of Japan WiKi</p>
+					</div>
+</body>
+</html>

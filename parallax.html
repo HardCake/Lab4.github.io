@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<style type="text/css">
+		.parallax {
+			background-image: url(https://cdn.scenicglobal.com/webfile/Hero-Images-Scenic-1920x800px-18.jpg);
+			height: 1000px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+		}
+
+		@media only screen (max-device-width: 700px) {
+			.parallax {
+				background-attachment: inherit;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="parallax"></div>
+
+</body>
+</html>
